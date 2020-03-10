@@ -1,0 +1,98 @@
+
+body { 
+    margin: 0px;
+}
+
+.grid_container {
+    display: grid;
+    width: 1440px;
+    height: 900px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.first_rect {
+    background-color: #9BC1BC;
+    color: #000000; 
+    grid-row: 11 / 13;
+    grid-column: 1 / 7;
+    width: 100%;
+    height: 146px;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.palette {
+    font-family: Arial;
+    font-size: 24px;
+}
+
+.sec_rect {
+    background-color: chartreuse;
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+
+.third_rect {
+    background-color: crimson;
+    grid-column: 1 / 3;
+    grid-row: 4 / 7;
+}
+
+.fourth_rect {
+    background-color: darkcyan;
+    grid-column: 1 / 3;
+    grid-row: 7 / 11;
+}
+
+.fifth_rect {
+    background-color: darkorange;
+    grid-column: 3 / 5;
+    grid-row: 1 / 7;
+}
+
+.sixth_rect {
+    background-color: darkturquoise;
+    grid-column: 3 / 4;
+    grid-row: 7 / 9;
+}
+
+.seventh_rect {
+    background-color: firebrick;
+    grid-column: 3 / 4;
+    grid-row: 9 / 11;
+}
+
+.eight_rect {
+    background-color: darkviolet;
+    grid-column: 4 / 6;
+    grid-row: 7 / 11;
+}
+
+.ninth_rect {
+    background-color: deepskyblue;
+    grid-column: 6 / 7;
+    grid-row: 7 / 11;
+}
+
+.tenth_rect {
+    background-color: forestgreen;
+    grid-row: 1 / 3;
+    grid-column: 5 / 7;
+}
+
+.eleventh_rect {
+    background-color: gold;
+    grid-row: 3 / 5;
+    grid-column: 5 / 7;
+}
+
+.twelveth_rect {
+    background-color: hotpink;
+    grid-row: 5 / 7;
+    grid-column: 5 / 7;
+}
+
